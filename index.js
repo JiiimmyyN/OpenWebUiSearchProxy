@@ -33,6 +33,8 @@ app.post("/search", async (req, res) => {
     const params = new URLSearchParams({
       q: query,
       count: String(count),
+      search_lang: "en",
+      ui_lang: "en-US"
     });
 
     const braveResponse = await fetch(`${BRAVE_API_URL}?${params}`, {
