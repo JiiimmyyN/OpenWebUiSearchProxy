@@ -1,0 +1,22 @@
+{
+  "name": "brave-search-proxy",
+  "version": "0.0.1",
+  "description": "Proxy server for Brave Search API compatible with OpenWebUI external search",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "brave",
+    "search",
+    "openwebui",
+    "proxy"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
